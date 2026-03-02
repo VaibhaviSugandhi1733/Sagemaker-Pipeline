@@ -9,7 +9,7 @@ KeyError,Verify the key exists in the dictionary or use the .get() method for a 
 AttributeError,Confirm the object actually has the method or attribute you are trying to call.
 ModuleNotFoundError,Use 'pip install' to install the missing package in your current environment.
 FileNotFoundError,Check the file path for typos and use absolute paths if the script moves.
-ZeroDivisionError, Add a check to ensure the denominator is not zero before performing division.
+ZeroDivisionError,Add a check to ensure the denominator is not zero before performing division.
 RecursionError,Ensure your recursive function has a base case to prevent an infinite loop.
 ImportError,Check if the module is installed or if there is a circular dependency.
 File too large: too many records or columns,"Split the file into smaller chunks or increase the memory limit of the importing application."
