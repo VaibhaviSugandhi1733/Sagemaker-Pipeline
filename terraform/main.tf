@@ -14,6 +14,7 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
+  profile = "vaibhavi"
 }
 
 variable "aws_region" {
@@ -24,7 +25,7 @@ variable "aws_region" {
 
 variable "project_name" {
   type        = string
-  default     = "sagemaker-logs-poc"
+  default     = "sagemaker-logs-poc-vds1"
   description = "Project name prefix for all resources"
 }
 
