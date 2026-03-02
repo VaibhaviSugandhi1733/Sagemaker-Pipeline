@@ -14,7 +14,7 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
-  profile = "vaibhavi"
+  
 }
 
 variable "aws_region" {
